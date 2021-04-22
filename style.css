@@ -1,0 +1,42 @@
+
+html {	
+	background-color: #F5F0AB;
+}
+
+body {
+	text-align: center;	
+}
+
+
+#inputButtonDiv {
+	padding: 10px;	
+}
+
+#inputButton {
+	background-color:#504B02;
+	height: 50px;
+	width: 250px;
+	color: #F5F0AB;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 500px;
+	height: 500px;
+	background-color: white;
+	border: 1px solid black;	
+}
+
+.gridRow {
+	display: flex;
+	flex-grow: 1;	
+}
+
+
+.pixel {
+	display: inline-block;
+	flex-grow:1;	
+}
+
